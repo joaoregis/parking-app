@@ -14,7 +14,7 @@ below.
   `$ node --version`
   `v10.15.3`
 
-  `$ npm --version
+  `$ npm --version`
   `6.4.1`
     
 ## Install
