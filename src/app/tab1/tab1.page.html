@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Início
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-label>Ticket</ion-label>
+  <ion-input [(ngModel)]="ticket" value="Não há ticket" disabled></ion-input>
+  <ion-button type="button" (click)="GetNewToken()" class="btn btn-primary">Gerar Ticket</ion-button>
+</ion-content>
